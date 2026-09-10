@@ -1,42 +1,23 @@
-# Hi, I'm Arthur 👋
+# Arthur P
 
-I'm a mechatronics engineering student interested in robotics, embedded systems, IoT, and practical experimentation.
+Mechatronics engineering student working on embedded systems, robotics and connected devices.
 
-I enjoy building complete systems—from electronics and communication protocols to software interfaces, testing, and real-world validation.
+I like projects that mix electronics, firmware and software, with enough testing to make the prototype work outside the lab.
 
-## Featured projects
+## Technical stack
 
-### 🌱 [Plant Tracker](https://github.com/idk-sheesh/plant-tracker)
+- **Embedded:** ESP32, C/C++, PlatformIO, I2C, UART
+- **Software:** Python, Dart/Flutter, Tkinter, SQLite, TCP/IP, HTML/CSS/JavaScript
+- **Systems:** Linux, Raspberry Pi, Docker Compose, Tailscale, UFW, Restic, AdGuard Home
+- **Hardware:** soldering, sensor integration, power troubleshooting, 3D printing, OpenSCAD, Betaflight
 
-A local-first mobile application for organizing plants, recording care activities, and keeping a useful history on the device.
+## Projects
 
-**Technologies:** Flutter, Dart
+- **[Plant Tracker](https://github.com/idk-sheesh/plant-tracker)** — local-first Flutter application with SQLite, ESP32 sensor integration and a Raspberry Pi backend. Public source is being prepared.
+- **[Custom FPV Drone](https://github.com/idk-sheesh/fpv-drone-build)** — 5-inch drone assembled, configured and flown with an STM32F405 flight controller, Betaflight, SBUS, GPS and analog video.
+- **Dobot Atelier** — Python/Tkinter application for controlling a robotic arm over TCP, importing SVG paths, simulating trajectories and enforcing motion-safety limits. Publication in progress.
+- **Raspberry Pi home server** — Debian server with NVMe storage, Docker services, private Tailscale access, UFW firewalling, encrypted Restic backups and AdGuard Home.
+- **ESP32-CAM print monitor** — PlatformIO firmware that captures and sends on-demand photos of a 3D printer through an authenticated Telegram bot.
+- **LoRa sensor network** — environmental monitoring project in early prototyping, with ESP32 nodes, I2C sensors and planned RS-485/Modbus and LoRa telemetry.
 
-### 🚁 [Custom FPV Drone Build](https://github.com/idk-sheesh/fpv-drone-build)
-
-Design, assembly, configuration, and flight testing of a custom 5-inch FPV drone based on a Mamba F405 flight controller and Betaflight.
-
-**Topics:** embedded systems, electronics integration, UART, power management, soldering, troubleshooting
-
-### 🦾 Dobot Atelier — publication in progress
-
-A Python desktop application for controlling a Dobot robotic arm, importing SVG paths, simulating trajectories, and enforcing motion-safety limits.
-
-**Technologies:** Python, Tkinter, TCP sockets, SVG processing, automated tests
-
-## Current focus
-
-- improving test automation and reproducible GitHub workflows;
-- developing connected systems with ESP32 devices;
-- documenting projects with clear architecture, validation steps, and demonstrations;
-- turning working prototypes into polished engineering portfolio projects.
-
-## Technical toolbox
-
-`Python` · `Dart` · `Flutter` · `C/C++` · `ESP32` · `SQLite` · `TCP/IP` · `UART` · `Git` · `Betaflight`
-
-## Opportunities
-
-I'm open to internships and collaborative projects in mechatronics, robotics, embedded systems, and IoT.
-
-<!-- Add a LinkedIn or professional email here once you are ready to publish it. -->
+Currently looking for an internship where I can work on embedded systems, robotics, automation or industrial IoT.
